@@ -112,7 +112,6 @@
   rustc
   git
   gcc
-  chromium
   rustup
   ];
 

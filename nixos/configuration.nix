@@ -113,6 +113,8 @@
   git
   gcc
   rustup
+  vscode
+  python310
   ];
 
 

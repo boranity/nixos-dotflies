@@ -91,7 +91,6 @@
     description = "boranity";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      firefox
       kate
       #  thunderbird
     ];
@@ -106,12 +105,14 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [ 
+  firefox
   tdesktop
   cargo
   gnumake
   rustc
   git
   gcc
+  chromium
   rustup
   ];
 
